@@ -1,4 +1,5 @@
 import tensorflow as tf
+print(tf.__version__)
 
 if str(tf.__version__).startswith('1'):
 	a = tf.constant(1)
